@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2021.01.14.</title>
+</head>
+
+<body onkeydown="key(this,true)" onkeyup="key(this,false)" onkeypress="pressed(event)" style="font-family:'Courier New', Courier, monospace;">
+    <h1 id="header1">Nyomjon le akárhol billentyűket!</h1>
+
+    <div id="pressesContainer">
+        <div id="pressesCount" style="font-weight: bold;">Leütések száma: 0</div>
+        <div id="pressesList" style="height:600px;width:auto;border:1px solid #ccc;overflow:auto;"> </div>
+        <div id="pressesListRaw" style="height:auto;width:auto;border:1px solid #ccc;overflow:auto;"> </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
