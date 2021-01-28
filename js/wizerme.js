@@ -52,6 +52,5 @@ xhr.onreadystatechange = function() {
 }
 xhr.open("GET","https://app.wizer.me/learn/worksheet/"+window.location.href.split("/")[4]+"?nc=1");
 xhr.send();
-export {printAnswers};
 }
-
+export {printAnswers};
